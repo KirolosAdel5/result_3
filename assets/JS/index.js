@@ -75,22 +75,3 @@ $(".Click-here").on('click', function() {
       event.preventDefault(); // To prevent following the link (optional)
       location.href="https://api.whatsapp.com/send?phone=201289022985&text=welcome";
     });
-
-
-// smBtn.addEventListener("click", function() {
-    
-//     const name = document.getElementById('code').value;
-//     for(let i = 0; i < data.length; i++){
-//         if(data[i].name.toLowerCase() == name.toLowerCase()){
-//             verse.innerHTML = "''"+verses[Math.floor(Math.random()*verses.length)]+"''";
-//             console.log(data[i].marks1)
-//             results.innerHTML =data[i].marks1 +" / 50 ";
-//             results2.innerHTML =data[i].marks2 +" / 50 " ; 
-
-//             const [first, last] = document.getElementById('name').value.split(' ');
-//             thxmassage.innerHTML = " شكرا ليك يا" +" "+ first
-//             return;
-//         }
-//     }    
-//     results.innerHTML =  "<h4 style='color:#d43f3a'>"+" تاكد من معلوماتك مرة اخرى و اعد المحاولة"+"<br>" + "اذا كنت تواجه مشكلة اضغط بالاسفل على هل يوجد مشكلة ؟"+"</h4>"
-// })
